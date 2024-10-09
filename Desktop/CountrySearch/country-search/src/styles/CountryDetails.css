@@ -1,0 +1,74 @@
+/* CountryDetails.css */
+.country-details-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.country-details-container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.country-name {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.country-capital {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.country-flag {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+.currency-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.currency-item {
+    font-size: 1rem;
+    color: #555;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
